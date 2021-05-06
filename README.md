@@ -197,3 +197,7 @@
    ; virt.prefix ext      connection   ext
    ```
    SIP-User with the number 1001 on Server B is callable with the number 09021001
+
+## 🎉 Credits
+
+- [Andrej Kopp](https://github.com/sequelone)
