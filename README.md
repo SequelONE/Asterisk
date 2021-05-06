@@ -1,29 +1,29 @@
 # BSD-Asterisk
 ## Vagrant + VirtualBox
 
-1. ###Select order in Cmder oder cmd:
+1. Select order in Cmder oder cmd:
    ```
    cd D:\Projects\VirtualOS\FreeBSD
    ```
 
-2. ###Initialisieren FreeBSD durch Vagrant:
+2. Initialisieren FreeBSD durch Vagrant:
    ```
    vagrant init freebsd/FreeBSD-11.0-STABLE
    ```
 
-3. ###Installieren FreeBSD
+3. Installieren FreeBSD
    ```
    vagrant up
    ```
 
-4. ###SSH Zugriff
+4. SSH Zugriff
    ```
    vagrant ssh
    ```
    
 ## Create asterisk VoIP-Server in FreeBSD
 
-1. ###Install Asterisk
+1. Install Asterisk
 
    ```
    pkg install asterisk13
@@ -46,7 +46,7 @@
    ps ax | grep asterisk
    ```
 
-3. ###Initial Configuration
+3. Initial Configuration
 
    location of the config-files:
 
@@ -95,7 +95,7 @@
    exten = 2001, 1, Dial(SIP/bob)
    ```
 
-5. ###Monitoring and Controlling
+5. Monitoring and Controlling
 
    enter asterisk CLI with the following command:
 
@@ -149,7 +149,7 @@
 	sip show history     # Show SIP dialog history
 	```
 
-6. ###Debuggin and logs
+6. Debuggin and logs
 
    logfile location can be configured in asterisk.conf
 
@@ -165,7 +165,7 @@
    iax2 set debug on/off
    ```
 
-8. ###iax.conf
+8. iax.conf
 
    Server A iax.conf example:
    ```
