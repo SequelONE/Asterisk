@@ -1,12 +1,12 @@
 # BSD-Asterisk
 ## 🙌 Vagrant + VirtualBox
 
-1. Select order in Cmder oder cmd:
+1. Wählen Sie einen Ordner in Cmder oder cmd:
    ```
    cd D:\Projects\VirtualOS\FreeBSD
    ```
 
-2. Initialisieren FreeBSD durch Vagrant:
+2. Initialisieren Vagrant:
    ```
    vagrant init freebsd/FreeBSD-11.0-STABLE
    ```
@@ -23,7 +23,7 @@
    
 ## 🔒 Create asterisk VoIP-Server in FreeBSD
 
-1. Install Asterisk
+1. Initialisieren Asterisk
 
    ```
    pkg install asterisk13
@@ -46,7 +46,7 @@
    ps ax | grep asterisk
    ```
 
-3. Initial Configuration
+3. Initialisieren Configuration
 
    location of the config-files:
 
@@ -149,7 +149,7 @@
 	sip show history     # Show SIP dialog history
 	```
 
-6. Debuggin and logs
+6. Debuggin and Logs
 
    logfile location can be configured in asterisk.conf
 
