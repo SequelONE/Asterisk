@@ -1,5 +1,5 @@
 # BSD-Asterisk
-## Vagrant + VirtualBox
+## 🙌 Vagrant + VirtualBox
 
 1. Select order in Cmder oder cmd:
    ```
@@ -21,7 +21,7 @@
    vagrant ssh
    ```
    
-## Create asterisk VoIP-Server in FreeBSD
+## 🔒 Create asterisk VoIP-Server in FreeBSD
 
 1. Install Asterisk
 
